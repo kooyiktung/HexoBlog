@@ -129,4 +129,33 @@
         <tag>macOS</tag>
       </tags>
   </entry>
+  <entry>
+    <title>fix Enter passphrase for key &#39;/Users/username/.ssh/id_rsa&#39; each time</title>
+    <url>/HexoBlog/2021/11/03/fix-Enter-passphrase-for-key-Users-username-ssh-id-rsa-each-time/</url>
+    <content><![CDATA[<p>Simple solution to avoid inputting passphrase each time.</p>
+<span id="more"></span>
+
+<p>After connecting to Git successfully, we may be required to input the passphrase for SSH key.</p>
+<img src="/HexoBlog/2021/11/03/fix-Enter-passphrase-for-key-Users-username-ssh-id-rsa-each-time/image-20211103155035785.png" class="" title="image-20211103155035785">
+
+<p><strong>Solution</strong></p>
+<ol>
+<li><p>new terminal and input</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment">## username is the name of macbook</span></span><br><span class="line">ssh-add -K /Users/username/.ssh/id_rsa</span><br></pre></td></tr></table></figure></li>
+<li><p>input pwd of macbook after show this code</p>
+<img src="/HexoBlog/2021/11/03/fix-Enter-passphrase-for-key-Users-username-ssh-id-rsa-each-time/image-20211103155810688.png" class="" title="image-20211103155810688"></li>
+<li><p>if succeed will show like this</p>
+<img src="/HexoBlog/2021/11/03/fix-Enter-passphrase-for-key-Users-username-ssh-id-rsa-each-time/image-20211103160222513.png" class="" title="image-20211103160222513"></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Programming</category>
+        <category>Git</category>
+      </categories>
+      <tags>
+        <tag>macOS</tag>
+        <tag>git</tag>
+        <tag>ssh</tag>
+      </tags>
+  </entry>
 </search>

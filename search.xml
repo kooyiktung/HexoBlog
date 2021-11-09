@@ -181,7 +181,8 @@
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">pip install jupyter</span><br></pre></td></tr></table></figure>
 
 <p>Launch Jupyter Notebook from remote server <strong><IP></strong>, selecting a port number for <strong><PORT></strong></p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> Replace =&lt;IP&gt; with your server IP</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> Replace =&lt;PORT&gt; with your selected port number</span></span><br><span class="line">jupyter notebook --IP &lt;IP&gt; --port &lt;PORT&gt; --allow-root</span><br></pre></td></tr></table></figure>
+<p>##Replace <IP> with your server IP<br>##Replace <PORT> with your selected port number</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">jupyter notebook --IP &lt;IP&gt; --port &lt;PORT&gt; --allow-root</span><br></pre></td></tr></table></figure>
 
 
 
@@ -199,7 +200,7 @@
       <tags>
         <tag>python</tag>
         <tag>Linux</tag>
-        <tag>Jupiter Notebook</tag>
+        <tag>Jupyter Notebook</tag>
       </tags>
   </entry>
 </search>

@@ -20,30 +20,30 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"kooyiktung.github.io","root":"/HexoBlog/","images":"/HexoBlog/images","scheme":"Gemini","version":"8.6.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/HexoBlog/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/HexoBlog/js/config.js"></script>
-<meta name="description" content="Tor Network can be used to run ruquests with changed IP. If Tor has been installed (Tor is not the same as Tor Browser) then it should run all time as service and it could be used as proxyserver with">
+<meta name="description" content="Configure python on the server (Ubuntu20.04.3 OS).  Running jupyter notebook on a remote server.">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Use Tor Network with requests module">
-<meta property="og:url" content="https://kooyiktung.github.io/HexoBlog/2021/11/03/Use-Tor-Network-with-requests-module/index.html">
+<meta property="og:title" content="install jupyter notebook on ubuntu">
+<meta property="og:url" content="https://kooyiktung.github.io/HexoBlog/2021/11/09/install-jupyter-notebook-on-ubuntu/index.html">
 <meta property="og:site_name" content="Gwyetee Blog">
-<meta property="og:description" content="Tor Network can be used to run ruquests with changed IP. If Tor has been installed (Tor is not the same as Tor Browser) then it should run all time as service and it could be used as proxyserver with">
+<meta property="og:description" content="Configure python on the server (Ubuntu20.04.3 OS).  Running jupyter notebook on a remote server.">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2021-11-03T03:36:32.000Z">
-<meta property="article:modified_time" content="2021-11-03T04:09:28.325Z">
+<meta property="article:published_time" content="2021-11-09T03:57:02.000Z">
+<meta property="article:modified_time" content="2021-11-09T06:22:12.204Z">
 <meta property="article:author" content="Gu YT">
 <meta property="article:tag" content="python">
-<meta property="article:tag" content="tor">
-<meta property="article:tag" content="darknet">
+<meta property="article:tag" content="Linux">
+<meta property="article:tag" content="Jupiter Notebook">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://kooyiktung.github.io/HexoBlog/2021/11/03/Use-Tor-Network-with-requests-module/">
+<link rel="canonical" href="https://kooyiktung.github.io/HexoBlog/2021/11/09/install-jupyter-notebook-on-ubuntu/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"https://kooyiktung.github.io/HexoBlog/2021/11/03/Use-Tor-Network-with-requests-module/","path":"2021/11/03/Use-Tor-Network-with-requests-module/","title":"Use Tor Network with requests module"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"https://kooyiktung.github.io/HexoBlog/2021/11/09/install-jupyter-notebook-on-ubuntu/","path":"2021/11/09/install-jupyter-notebook-on-ubuntu/","title":"install jupyter notebook on ubuntu"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Use Tor Network with requests module | Gwyetee Blog</title>
+<title>install jupyter notebook on ubuntu | Gwyetee Blog</title>
   
 
 
@@ -137,7 +137,7 @@
 
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           Table of Contents
@@ -150,6 +150,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Install-Required-Dependecies"><span class="nav-text">Install Required Dependecies</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Install-Jupyter-Notebook"><span class="nav-text">Install Jupyter Notebook</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -224,7 +225,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
-    <link itemprop="mainEntityOfPage" href="https://kooyiktung.github.io/HexoBlog/2021/11/03/Use-Tor-Network-with-requests-module/">
+    <link itemprop="mainEntityOfPage" href="https://kooyiktung.github.io/HexoBlog/2021/11/09/install-jupyter-notebook-on-ubuntu/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/HexoBlog/images/avatarMinion.JPG">
@@ -237,7 +238,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Use Tor Network with requests module
+          install jupyter notebook on ubuntu
         </h1>
 
         <div class="post-meta-container">
@@ -249,7 +250,7 @@
       <span class="post-meta-item-text">Posted on</span>
       
 
-      <time title="Created: 2021-11-03 11:36:32 / Modified: 12:09:28" itemprop="dateCreated datePublished" datetime="2021-11-03T11:36:32+08:00">2021-11-03</time>
+      <time title="Created: 2021-11-09 11:57:02 / Modified: 14:22:12" itemprop="dateCreated datePublished" datetime="2021-11-09T11:57:02+08:00">2021-11-09</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -261,7 +262,7 @@
         </span>
           , 
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/HexoBlog/categories/Programming/Python/" itemprop="url" rel="index"><span itemprop="name">Python</span></a>
+          <a href="/HexoBlog/categories/Programming/Server/" itemprop="url" rel="index"><span itemprop="name">Server</span></a>
         </span>
     </span>
 
@@ -275,15 +276,36 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <p>Tor Network can be used to run <code>ruquests</code> with changed IP.</p>
-<p>If <code>Tor</code> has been installed (Tor is not the same as Tor Browser) then it should run all time as service and it could be used as <code>proxyserver</code> with address <code>127.0.0.1:9050</code> (<code>localhost:9050</code>)</p>
+        <p>Configure python on the server (Ubuntu20.04.3 OS). </p>
+<p>Running jupyter notebook on a remote server.</p>
 <span id="more"></span>
 
-<p>In <code>request</code> </p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">proxy = &#123;</span><br><span class="line">  <span class="string">&#x27;http&#x27;</span>: <span class="string">&#x27;socks5h://127.0.0.1:9050&#x27;</span>,</span><br><span class="line">  <span class="string">&#x27;https&#x27;</span>: <span class="string">&#x27;socks5h://127.0.0.1:9050&#x27;</span></span><br><span class="line">&#125; </span><br><span class="line"></span><br><span class="line">r = requests.get(url, proxies = proxy) <span class="comment"># using TOR network</span></span><br></pre></td></tr></table></figure>
+<h3 id="Install-Required-Dependecies"><a href="#Install-Required-Dependecies" class="headerlink" title="Install Required Dependecies"></a>Install Required Dependecies</h3><p>Jupyter Notebook is based on Python. Install Python and other libraries:</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">apt-get install python3 python3-pip python3-dev -y</span><br></pre></td></tr></table></figure>
 
-<p><em>References:</em></p>
-<p><a target="_blank" rel="noopener" href="https://blog.furas.pl/python-how-to-use-tor-network-with-requests-to-change-ip.html">Python: How to use Tor Network with requests to change IP?</a></p>
+<p>verify the installed version of Python:</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python3 --version</span><br></pre></td></tr></table></figure>
+
+<p>upgrade the PIP to the latest version:</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip3 install --upgrade pip</span><br></pre></td></tr></table></figure>
+
+<p>verify the PIP version:</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip3 --version</span><br></pre></td></tr></table></figure>
+
+<h3 id="Install-Jupyter-Notebook"><a href="#Install-Jupyter-Notebook" class="headerlink" title="Install Jupyter Notebook"></a>Install Jupyter Notebook</h3><p>install Jupyter Notebook:</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install jupyter</span><br></pre></td></tr></table></figure>
+
+<p>Launch Jupyter Notebook from remote server <strong><IP></strong>, selecting a port number for <strong><PORT></strong></p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> Replace =&lt;IP&gt; with your server IP</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> Replace =&lt;PORT&gt; with your selected port number</span></span><br><span class="line">jupyter notebook --IP &lt;IP&gt; --port &lt;PORT&gt; --allow-root</span><br></pre></td></tr></table></figure>
+
+
+
+<p><em>References</em></p>
+<blockquote>
+<p><a target="_blank" rel="noopener" href="https://www.rosehosting.com/blog/how-to-install-jupyter-notebook-on-ubuntu-20-04/">https://www.rosehosting.com/blog/how-to-install-jupyter-notebook-on-ubuntu-20-04/</a></p>
+<p><a target="_blank" rel="noopener" href="https://docs.anaconda.com/anaconda/user-guide/tasks/remote-jupyter-notebook/">https://docs.anaconda.com/anaconda/user-guide/tasks/remote-jupyter-notebook/</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/gttack/article/details/108721971?spm=1001.2101.3001.6650.3&amp;utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-3.no_search_link&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-3.no_search_link">https://blog.csdn.net/gttack/article/details/108721971?spm=1001.2101.3001.6650.3&amp;utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3.no_search_link&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3.no_search_link</a></p>
+</blockquote>
 
     </div>
 
@@ -294,22 +316,19 @@
     <footer class="post-footer">
           <div class="post-tags">
               <a href="/HexoBlog/tags/python/" rel="tag"># python</a>
-              <a href="/HexoBlog/tags/tor/" rel="tag"># tor</a>
-              <a href="/HexoBlog/tags/darknet/" rel="tag"># darknet</a>
+              <a href="/HexoBlog/tags/Linux/" rel="tag"># Linux</a>
+              <a href="/HexoBlog/tags/Jupiter-Notebook/" rel="tag"># Jupiter Notebook</a>
           </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/HexoBlog/2021/08/09/Quantitative-VS-Qualitative/" rel="prev" title="Quantitative VS Qualitative">
-                  <i class="fa fa-chevron-left"></i> Quantitative VS Qualitative
+                <a href="/HexoBlog/2021/11/03/fix-Enter-passphrase-for-key-Users-username-ssh-id-rsa-each-time/" rel="prev" title="fix Enter passphrase for key '/Users/username/.ssh/id_rsa' each time">
+                  <i class="fa fa-chevron-left"></i> fix Enter passphrase for key '/Users/username/.ssh/id_rsa' each time
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/HexoBlog/2021/11/03/fix-Enter-passphrase-for-key-Users-username-ssh-id-rsa-each-time/" rel="next" title="fix Enter passphrase for key '/Users/username/.ssh/id_rsa' each time">
-                  fix Enter passphrase for key '/Users/username/.ssh/id_rsa' each time <i class="fa fa-chevron-right"></i>
-                </a>
             </div>
           </div>
     </footer>

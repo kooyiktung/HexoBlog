@@ -158,4 +158,48 @@
         <tag>ssh</tag>
       </tags>
   </entry>
+  <entry>
+    <title>install jupyter notebook on ubuntu</title>
+    <url>/HexoBlog/2021/11/09/install-jupyter-notebook-on-ubuntu/</url>
+    <content><![CDATA[<p>Configure python on the server (Ubuntu20.04.3 OS). </p>
+<p>Running jupyter notebook on a remote server.</p>
+<span id="more"></span>
+
+<h3 id="Install-Required-Dependecies"><a href="#Install-Required-Dependecies" class="headerlink" title="Install Required Dependecies"></a>Install Required Dependecies</h3><p>Jupyter Notebook is based on Python. Install Python and other libraries:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">apt-get install python3 python3-pip python3-dev -y</span><br></pre></td></tr></table></figure>
+
+<p>verify the installed version of Python:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">python3 --version</span><br></pre></td></tr></table></figure>
+
+<p>upgrade the PIP to the latest version:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">pip3 install --upgrade pip</span><br></pre></td></tr></table></figure>
+
+<p>verify the PIP version:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">pip3 --version</span><br></pre></td></tr></table></figure>
+
+<h3 id="Install-Jupyter-Notebook"><a href="#Install-Jupyter-Notebook" class="headerlink" title="Install Jupyter Notebook"></a>Install Jupyter Notebook</h3><p>install Jupyter Notebook:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">pip install jupyter</span><br></pre></td></tr></table></figure>
+
+<p>Launch Jupyter Notebook from remote server <strong><IP></strong>, selecting a port number for <strong><PORT></strong></p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash"> Replace =&lt;IP&gt; with your server IP</span></span><br><span class="line"><span class="meta">#</span><span class="bash"> Replace =&lt;PORT&gt; with your selected port number</span></span><br><span class="line">jupyter notebook --IP &lt;IP&gt; --port &lt;PORT&gt; --allow-root</span><br></pre></td></tr></table></figure>
+
+
+
+<p><em>References</em></p>
+<blockquote>
+<p><a href="https://www.rosehosting.com/blog/how-to-install-jupyter-notebook-on-ubuntu-20-04/">https://www.rosehosting.com/blog/how-to-install-jupyter-notebook-on-ubuntu-20-04/</a></p>
+<p><a href="https://docs.anaconda.com/anaconda/user-guide/tasks/remote-jupyter-notebook/">https://docs.anaconda.com/anaconda/user-guide/tasks/remote-jupyter-notebook/</a></p>
+<p><a href="https://blog.csdn.net/gttack/article/details/108721971?spm=1001.2101.3001.6650.3&amp;utm_medium=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-3.no_search_link&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~CTRLIST~default-3.no_search_link">https://blog.csdn.net/gttack/article/details/108721971?spm=1001.2101.3001.6650.3&amp;utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3.no_search_link&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3.no_search_link</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Programming</category>
+        <category>Server</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+        <tag>Linux</tag>
+        <tag>Jupiter Notebook</tag>
+      </tags>
+  </entry>
 </search>

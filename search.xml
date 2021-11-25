@@ -203,4 +203,38 @@
         <tag>Jupyter Notebook</tag>
       </tags>
   </entry>
+  <entry>
+    <title>macOS环境变量配置</title>
+    <url>/HexoBlog/2021/11/25/macOS%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[<p>Set Environment Variables in MacOS.</p>
+<span id="more"></span>
+
+<ol>
+<li><p>Open terminal, input <code>vim ~/.bash_profile</code></p>
+</li>
+<li><p>Input <code>i</code> enter the edit mode, then input the environment variable</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">export</span> PATH=[PATH_TO_FLUTTER_GIT_DIRECTORY]/flutter/bin:<span class="variable">$PATH</span></span><br></pre></td></tr></table></figure>
+
+<p>Hint: If there are multiple PATHs, input multiple : <code>export PATH=xxx</code></p>
+</li>
+<li><p>When finish editing, click <code>esc</code>, input <code>:wq!</code> to save and quit</p>
+</li>
+<li><p>input <code>source .bash_profile</code> to make the environment variable work</p>
+</li>
+</ol>
+<p><em>References</em></p>
+<blockquote>
+<p><a href="https://www.jianshu.com/p/8e51bc9cebfa">Mac OS环境变量配置</a></p>
+<p><a href="https://stackoverflow.com/questions/50652071/flutter-command-not-found">Flutter command not found on macOS</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Hints</category>
+        <category>macOS</category>
+      </categories>
+      <tags>
+        <tag>macOS</tag>
+        <tag>Flutter</tag>
+      </tags>
+  </entry>
 </search>
